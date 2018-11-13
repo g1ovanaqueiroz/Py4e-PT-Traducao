@@ -8,13 +8,13 @@ Um dos projetos que o capítulo da RAS na UFCG está fazendo é a tradução do 
 
 We are doing all the work in TeX and putting the titles in this repository and we hope that soon we have the complete translated book, participate in this project:
 
-Alysson Hyago
-Andhré Carvalho
-João Melquiadas
-Maysa Freire
-Natã Macêdo
-Vinícius França - @Viniciusfn
-Yuri Loia - @yuriloia
+Alysson Hyago \\
+Andhré Carvalho \\
+João Melquiadas \\
+Maysa Freire \\
+Natã Macêdo \\
+Vinícius França - @Viniciusfn \\
+Yuri Loia - @yuriloia \\
 
 
 EN
