@@ -1,0 +1,81 @@
+\documentclass[12pt]{book}
+\usepackage[brazil]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{indentfirst}
+\usepackage{rotating}
+\usepackage{float}
+\usepackage[left=3cm,right=2cm,top=3cm,bottom=2cm]{geometry}
+\geometry{headheight=14.5pt}
+\usepackage{amsmath}
+\numberwithin{figure}{section}
+\usepackage{siunitx}
+\usepackage{float}
+\usepackage{amssymb}
+\usepackage{times}
+\usepackage[toc,page]{appendix}
+\usepackage{wrapfig}
+\usepackage{subcaption}
+\usepackage{url}
+\urlstyle{same} %assim, as urls não ficam em monospace, mas na fonte do documento.
+\usepackage{nomencl}
+\makenomenclature
+\usepackage{wrapfig}
+\usepackage[nottoc,numbib]{tocbibind}
+\usepackage{imakeidx}
+\usepackage{color}
+\usepackage{fancyvrb}
+\usepackage{xcolor}
+\usepackage{alltt,xcolor}
+\pagestyle{fancy}
+\rhead{\textbf{Python Book}}
+\lhead{} 
+
+\begin{document}
+
+\begin{titlepage}
+\title{Python Book}
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.5]{ufcg.png}
+\end{figure}
+\begin{center}
+\begin{large}
+Universidade Federal de Campina Grande\\
+Centro de Engenharia Elétrica e Informática\\
+Departamento de Engenharia Elétrica e Informática\\
+\end{large}
+
+\vspace{3cm}
+
+\begin{Large}
+\textbf{Livro \textit{Python For Everybody}}
+
+\vspace{0.6cm}
+
+\end{Large}
+
+\vspace*{4cm}
+        Allysson Hyago\\
+       Andhré Carvalho\\
+       João Melquiades\\
+       Maysa Araújo\\
+       Natã Silva\\
+       Vinicius França\\
+       Yuri Loia\\
+	   \vspace{4cm}
+Campina Grande, PB\\
+Outubro de 2018
+
+\end{center}
+
+\end{titlepage}
+
+
+\input{00-cover.tex}
+\input{00-preface.tex}
+\input{01-intro.tex}
+%\input{02-variables.tex}
+
+\end{document}
